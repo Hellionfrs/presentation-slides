@@ -19,9 +19,13 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-auto-animate data-auto-animate-unmatched="fade">
+        <section
+          data-auto-animate
+          data-auto-animate-unmatched="fade"
+          id="first-slide"
+        >
           <h2 class="fragment fade-right fade-out">Hola a todos!</h2>
-          <span class="title-wrapper">
+          <span class="title-wrapper gap-1">
             <h3 class="fragment fade-right">Soy</h3>
             <h3 class="fragment fade-left name-modifier">Fredy Rodriguez</h3>
           </span>
@@ -31,23 +35,66 @@
             🚀 A compañame en esta pequeña aventura!
           </p> -->
         </section>
-        <section data-auto-animate data-auto-animate-unmatched="fade">
-          <h3>Background</h3>
-          <p>This will fade out</p>
-          <img src="examples/assets/image1.png" style="height: 100px" />
-          <pre data-id="code"><code data-line-numbers class="hljs" data-trim>
-						function Example() {
-						  const [count, setCount] = useState(0);
-						}
-					</code></pre>
+        <section
+          data-auto-animate
+          data-auto-animate-unmatched="fade"
+          id="second-slide"
+        >
+          <div>
+            <h3 class="fragment fade-right">Mi motor</h3>
+            <small class="fragment fade-left">mis pilares</small>
+          </div>
+          <div class="img-wrapper">
+            <img
+              src="./assets/cumple.jpeg"
+              class="fragment fade-right img-container"
+            />
+            <img
+              src="./assets/alastor-bebe.jpeg"
+              class="fragment fade-left img-container"
+            />
+            <img
+              src="./assets/cusco-fred.jpeg"
+              class="fragment fade-left img-container"
+            />
+          </div>
         </section>
-        <section>Slide 12</section>
-        <section>Slide 2</section>
+        <section
+          data-auto-animate
+          data-auto-animate-unmatched="fade"
+          id="second-slide"
+        >
+          <div>
+            <h3 class="fragment fade-right">El inicio de mi viaje</h3>
+            <small class="fragment fade-left"
+              >De la construcción a la programación</small
+            >
+          </div>
+          <ul>
+            <li class="fragment fade-left">VBA (excel)</li>
+            <li class="fragment fade-left">CS50 de Harvard</li>
+            <li class="fragment fade-left">Codeable</li>
+          </ul>
+        </section>
+        <!-- TODO 
+					- agregar foto del streak
+				-->
+
+        <section>
+          <h3>Gracias por escuchar!</h3>
+          <span class="title-wrapper">
+            <small
+              >Estoy emocionado por la oportunidad de contribuir al éxito
+              de</small
+            >
+            <small class="name-modifier">IDBI</small>
+          </span>
+        </section>
       </div>
     </div>
 
     <script src="dist/reveal.js"></script>
-    <link rel="stylesheet" href="dist/theme/night.css" />
+    <link rel="stylesheet" href="dist/theme/sky.css" />
     <script src="plugin/notes/notes.js"></script>
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>

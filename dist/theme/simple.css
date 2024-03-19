@@ -353,8 +353,24 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .title-wrapper {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.img-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.img-container {
+  width: 300px;
+  border-radius: 10%;
+  filter: drop-shadow(0 0 0.75rem rgb(119, 134, 146));
 }
 
 .name-modifier {

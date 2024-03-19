@@ -86,7 +86,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-weight: var(--r-heading-font-weight);
   line-height: var(--r-heading-line-height);
   letter-spacing: var(--r-heading-letter-spacing);
-  text-transform: var(--r-heading-text-transform);
   text-shadow: var(--r-heading-text-shadow);
   word-wrap: break-word;
 }
@@ -348,6 +347,16 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
   color: var(--r-link-color);
+}
+
+.title-wrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.name-modifier {
+  color: rgb(65, 134, 84) !important;
 }
 
 /*********************************************
